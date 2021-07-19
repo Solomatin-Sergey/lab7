@@ -1,5 +1,5 @@
+cmake_minimum_required(VERSION 3.2)
 add_definitions(-std=c++0x)
-
 
 include("download_file/HunterGate.cmake")
 
