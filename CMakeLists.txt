@@ -8,7 +8,7 @@ HunterGate(
     SHA1 "5659b15dc0884d4b03dbd95710e6a1fa0fc3258d"
 )
 
-project(S)
+project(my_project)
 
 hunter_add_package(Boost)
 
