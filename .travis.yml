@@ -1,0 +1,23 @@
+language: cpp
+
+compiler:
+- gcc
+- clang  
+
+jobs:
+  include:
+  - name: "my projects"
+
+
+script:
+    - cmake -H. -B_build
+    - cmake --build _build
+
+
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+    packages:
+      - cmake
+      - cmake-data
